@@ -8,6 +8,10 @@ android {
         java.srcDirs = ['src']
         res.srcDirs = ['res']
     }
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+    }
 
     dependencies {
         def androidx_version = "1.0.0-rc02"
