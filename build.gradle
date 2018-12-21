@@ -8,13 +8,23 @@ android {
         java.srcDirs = ['src']
         res.srcDirs = ['res']
     }
+
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
     }
 
+    buildTypes {
+        release {
+        }
+        play {
+        }
+        debug {
+        }
+    }
+
     dependencies {
-        def androidx_version = "1.0.0-rc02"
+        def androidx_version = "1.0.2"
         implementation "androidx.appcompat:appcompat:$androidx_version"
     }
 }
