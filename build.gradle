@@ -14,15 +14,6 @@ android {
         targetSdkVersion 28
     }
 
-    buildTypes {
-        release {
-        }
-        play {
-        }
-        debug {
-        }
-    }
-
     dependencies {
         def androidx_version = "1.0.2"
         implementation "androidx.appcompat:appcompat:$androidx_version"
